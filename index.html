@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- é utilizada para indicar ao navegador qual versão do HTML está sendo utilizada -->
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last of Us</title>
+</head>
+
+<body> 
+    <font color="#000000">
+    <!-- imagem de fundo -->
+<style>
+      
+    body {
+
+       width: 100vw;
+       height: 100vh;
+       background-image: url(./the_last_of_us.jpg)
+
+      }
+
+    </style>
+
+    
+    <!-- Cabeçalho da Página (header) -->
+    <header>
+
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header">
+
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo">
+
+                <!-- Hyperlink -->
+                <h1>The Last of Us</h1>
+            </div>
+
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
+
+                <!-- Menu da Página (nav) -->
+                <nav>
+                    <!-- Marcadores não ordenados -->
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div id="validador">
+                    <!-- Etiqueta do elemento input -->
+                    <h2>Você gosta da Série?</h2>
+                    <input type="radio" name="cor" value="amarelo">
+                    <label for="amarelo">Sim</label><br>
+                    <input type="radio" name="cor" value="vermelho">
+                    <label for="vermelho">Não</label><br>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main>
+        <!-- Seção Home -->
+        <section id="home">
+
+            <!-- Texto da Seção Home -->
+            <article id="home_texto">
+                <h2>Bem vindo ao universo de the last of us</h2>
+                <h4>The Last of Us é um jogo eletrônico de ação e sobrevivência
+                  desenvolvido pela Naughty Dog e publicado pela Sony. 
+                  <br>Na história,os jogadores controlam Joel, um homem encarregado de escoltar uma adolescente chamada Ellie<br>
+                   através de um Estados Unidos pós-apocalíptico.<br>
+                   
+                  <p>The Last of Us é jogado a partir de uma perspectiva em terceira pessoa, com os jogadores usando armas de fogo,<br>
+                    armas improvisadas e furtividade a fim de defenderem-se de humanos hostis e criaturas canibalísticas infectadas<br> 
+                    por uma mutação do fungo Cordyceps. <br> </h4>
+            <!-- Imagem da Seção Home -->
+            <article id="home_imagem">
+                
+            </article>
+
+        </section>
+
+        <!-- Seção Sobre você -->
+        <section id="about">
+
+        </section>
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contato">
+
+            <!-- Seção de Contato - Redes Sociais-->
+            <article id="redes_sociais">
+                <h4>Contate Me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod error veniam in voluptatem magni quisquam</p>
+
+                <div id="icones_redes_sociais">
+                    <a href="">
+                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                    </a>
+                    <a href="">
+                        <img src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
+                    </a>
+                </div>
+            </article>
+
+            <!-- Seção do Formulário-->
+            <form action="" method="POST">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>       
+        <p> Projeto realizado por André - 2024  &copy;</p>
+    </footer>
+</body>
+
+</html>
