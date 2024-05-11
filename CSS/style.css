@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: rgb(233, 203, 69);;
+    height: 8vh;
+}
+
+
+
+#home { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#home_texto {
+    color: #141414;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    width: 100vw;
+    font-size: 16.7px;
+    height: 100vh;
+    width: 20%;
+    margin-right:800px ;
+    text-align: justify;
+    padding:10px 20px;
+    
+}
+
+.container img {
+    max-width:200px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(233, 203, 69);
+    padding-top: 90px;
+    }
+    a :houver{
+        color: antiquewhite
+    }
+    
+    
+#contato{
+    color: #23232e;
+    justify-content: right;
+    margin-bottom: -90px;
+    margin-right: 0px ;
+    text-align: center;
+
+}
+

@@ -6,25 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Last of Us</title>
-</head>
-
-<body> 
-    <font color="#000000">
-    <!-- imagem de fundo -->
-<style>
-      
-    body {
-
-       width: 100vw;
-       height: 100vh;
-       background-image: url(./the_last_of_us.jpg)
-
-      }
-
-    </style>
-
-    
-    <!-- Cabeçalho da Página (header) -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>     
+    <body> 
     <header>
 
         <!-- Div Conteudo do Cabeçalho -->
@@ -34,7 +19,7 @@
             <div id="titulo">
 
                 <!-- Hyperlink -->
-                <h1>The Last of Us</h1>
+                
             </div>
 
             <!-- Conteudo do Menu da Página (header) -->
@@ -42,47 +27,69 @@
 
                 <!-- Menu da Página (nav) -->
                 <nav>
-                    <!-- Marcadores não ordenados -->
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
+                    <a class="logo" href=>The Last of Us</a>
+                        <div class="mobile-menu">
+                        <div class="line1"></div>
+                       <div class="line2"></div>
+                       <div class="line3"></div>
+                        </div>
+                        <li><a href="Inicio">Início</a></li>
+                        <li><a href="Sobre">Sobre</a></li>
+                        <li><a href="História">História</a></li>
+                        <li><a href="O Jogo">O Jogo</a></li>
+                        <li><a href="A Série">A Série</a></li>
+                        <li><a href="Projeto">Projeto</a></li>
+                        <li><a href="Contato">Contato</a></li><div>
+                        
+                        <div id="validator">
+                        <li><a><h3>Você gosta da Série?</h3></a></li>
+                        <input type="radio" name="cor" value="amarelo">
+                        <a><label for="amarelo">Sim</label></a>
+                        <input type="radio" name="cor" value="vermelho">
+                        <a><label for="vermelho">Não</label> </a>                      
+                    </div>
+                       
+            <!-- Etiqueta do elemento input -->
+        
+        
+        
                 </nav>
-
-                <div id="validador">
-                    <!-- Etiqueta do elemento input -->
-                    <h2>Você gosta da Série?</h2>
-                    <input type="radio" name="cor" value="amarelo">
-                    <label for="amarelo">Sim</label><br>
-                    <input type="radio" name="cor" value="vermelho">
-                    <label for="vermelho">Não</label><br>
-
-                </div>
-
+                    </ul>
+                    
+            </header>
             </div>
+           
+        </div>
+        
         </div>
     </header>
 
+    <main></main>
+
     <!-- Seção Principal da Página (main) -->
-    <main>
+    <main class="conteudo">
         <!-- Seção Home -->
         <section id="home">
 
             <!-- Texto da Seção Home -->
             <article id="home_texto">
-                <h2>Bem vindo ao universo de the last of us</h2>
-                <h4>The Last of Us é um jogo eletrônico de ação e sobrevivência
-                  desenvolvido pela Naughty Dog e publicado pela Sony. 
-                  <br>Na história,os jogadores controlam Joel, um homem encarregado de escoltar uma adolescente chamada Ellie<br>
-                   através de um Estados Unidos pós-apocalíptico.<br>
+                <p><h2>Bem vindo ao universo de The Last Of US</h2></p><br>
+                <h4>The Last Of Us é um jogo eletrônico de ação e sobrevivência
+                  desenvolvido pela Naughty Dog e publicado pela Sony. Na história,
+                  os jogadores controlam Joel, um homem encarregado de escoltar uma adolescente chamada Ellie<br>
+                   através de um Estados Unidos <br>pós-apocalíptico.<br>
                    
-                  <p>The Last of Us é jogado a partir de uma perspectiva em terceira pessoa, com os jogadores usando armas de fogo,<br>
-                    armas improvisadas e furtividade a fim de defenderem-se de humanos hostis e criaturas canibalísticas infectadas<br> 
+                  <p><br>The Last of Us é jogado a partir de uma perspectiva em terceira pessoa, com os jogadores usando armas de fogo, armas improvisadas e furtividade <br>a fim de defenderem-se de humanos hostis e criaturas canibalísticas infectadas<br> 
                     por uma mutação do fungo Cordyceps. <br> </h4>
             <!-- Imagem da Seção Home -->
-            <article id="home_imagem">
-                
             </article>
+            
+            <article>
+            <div class="container">
+                <img src="The_Last_of_Us_logo.png"/>
+            </div>
+            
+          </article>
 
         </section>
 
@@ -95,20 +102,20 @@
         <section id="contato">
 
             <!-- Seção de Contato - Redes Sociais-->
-            <article id="redes_sociais">
-                <h4>Contate Me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quod error veniam in voluptatem magni quisquam</p>
-
+            <article id="contato">
+                <a><h4>Contate-me</h4></a>
+                <a>Olá, Seja bem-vindo!</a><p>
+                <a>Obrigado por nos visitar!</a>
+                <a>Deixe sua mensagem.</br></a>
                 <div id="icones_redes_sociais">
                     <a href="">
-                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                    <!--img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
                     </a>
                     <a href="">
                         <img src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
                     </a>
                 </div>
-            </article>
+            </article-->
 
             <!-- Seção do Formulário-->
             <form action="" method="POST">
