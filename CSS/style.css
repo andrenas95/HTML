@@ -1,3 +1,4 @@
+/*Configuração do Menu*/
 nav{
     display: flex;
     flex-direction: row;
@@ -9,7 +10,7 @@ nav{
 }
 
 
-
+/*Configuração do Home*/
 #home { 
   display: flex;
   flex-direction: row;
@@ -17,20 +18,23 @@ nav{
   justify-content: center;
 
 }
-
+/*Configuração do Texto da Página*/
 #home_texto {
+    border-color: #fcf3f3;
+    border-width: 10;
+    border-style: solid;
     color: #141414;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     width: 100vw;
     font-size: 16.7px;
     height: 100vh;
     width: 20%;
-    margin-right:800px ;
+    margin-right:850px ;
     text-align: justify;
     padding:10px 20px;
     
 }
-
+/*Configuração do logotipo The Last Of Us*/
 .container img {
     max-width:200px;
     max-height:250px;
@@ -55,6 +59,7 @@ nav{
     cursor: pointer;
   }
 
+
   .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -62,6 +67,7 @@ nav{
     margin: 8px;
     transition: 0.3s;
   }
+  /*Configuração do rodapé*/
   footer{
     display: flex;
     flex-direction: row;
@@ -73,7 +79,7 @@ nav{
         color: antiquewhite
     }
     
-    
+  /*Configuração do contato*/   
 #contato{
     color: #23232e;
     justify-content: right;
